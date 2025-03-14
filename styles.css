@@ -62,9 +62,7 @@ a:hover {
   grid-row: 1 / 2;
   background-color: whitesmoke;
   display: grid;
-  grid-template-rows: auto auto;
   background-color: white;
-  box-shadow: 2px 2px 2px 2px #babcc5;
   padding: 0.6rem 3rem;
 }
 
