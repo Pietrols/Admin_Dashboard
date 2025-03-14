@@ -10,13 +10,16 @@
     <div class="container">
       <div class="dashboard">
         <div class="top_dashboard">
-          <h1>
+          <h1 class="dash_title">
             <img src="Icons/view-dashboard-outline.svg" alt="dashboard icon" />
             Dashboard
           </h1>
         </div>
         <div class="middle_dashboard">
-          <h2><img src="Icons/home.svg" alt="home icon" /> Home</h3>
+          <a href="" class="sidebar_link">
+            <h2><img src="Icons/home.svg" alt="home icon" /> Home</h2>
+          </a>
+          <a href="" class="sidebar_link">
             <h2>
               <img
                 src="Icons/card-account-details-outline.svg"
@@ -24,170 +27,321 @@
               />
               Profile
             </h2>
+          </a>
+          <a href="" class="sidebar_link">
             <h2>
               <img src="Icons/message-badge-outline.svg" alt="message icon" />
               Messages
             </h2>
-            <h2><img src="Icons/history.svg" alt="history icon" /> History</h2>
+          </a>
+          <a href="" class="sidebar_link"
+            ><h2><img src="Icons/history.svg" alt="history icon" /> History</h2>
+          </a>
+          <a href="" class="sidebar_link">
             <h2>
-              <img src="Icons/note-multiple-outline.svg" alt="tasks icon" /> Tasks
+              <img src="Icons/note-multiple-outline.svg" alt="tasks icon" />
+              Tasks
             </h2>
+          </a>
+          <a href="" class="sidebar_link">
             <h2>
-              <img src="Icons/account-group.svg" alt="communities" /> Communities
+              <img src="Icons/account-group.svg" alt="communities" />
+              Communities
             </h2>
+          </a>
         </div>
         <div class="bottom_dashboard">
-          <h2>
-            <img src="Icons/cog-outline.svg" alt="settings icon" /> Settings
-          </h2>
-          <h2>
-            <img src="Icons/help-box-outline.svg" alt="support icon" /> Support
-          </h2>
-          <h2>
-            <img src="Icons/shield-check-outline.svg" alt="privacy icon" />
-            Privacy
-          </h2>
+          <a href="" class="sidebar_link">
+            <h2>
+              <img src="Icons/cog-outline.svg" alt="settings icon" /> Settings
+            </h2>
+          </a>
+          <a href="" class="sidebar_link">
+            <h2>
+              <img src="Icons/help-box-outline.svg" alt="support icon" />
+              Support
+            </h2>
+          </a>
+          <a href="" class="sidebar_link">
+            <h2>
+              <img src="Icons/shield-check-outline.svg" alt="privacy icon" />
+              Privacy
+            </h2>
+          </a>
         </div>
-        
-        
       </div>
       <div class="menu">
         <div class="top_menu">
-          <div class="top_left">
-            <div class="search">
-              <img src="Icons/magnify.svg" alt="search icon" /><input
-                type="text"
-              />
-            </div>
+          <div class="input-block">
+            <img
+              src="Icons/magnify.svg"
+              alt="search icon"
+              class="header-icon"
+            />
+            <input type="text" class="search_bar" placeholder="Search..." />
           </div>
-          <div class="top_right">
-            <div class="bell">
-              <img src="Icons/bell-ring-outline (1).svg" alt="bell icon" />
-            </div>
-            <div class="logged_in">
-              <img
-                src="Icons/20a32f9b-1a4e-4ab0-bbe0-fe090cffe514.svg"
-                alt="logged on profile icon. Icon by Dryicons"
-              />
-              Eliano David
-            </div>
+          <div class="profile_block">
+            <img
+              src="Icons/bell-ring-outline (1).svg"
+              alt="bell icon"
+              class="header-icon"
+            />
+            <img
+              src="Icons/20a32f9b-1a4e-4ab0-bbe0-fe090cffe514.svg"
+              alt="logged on profile icon. Icon by Dryicons"
+              class="small-pfp"
+            />
+            <h2 class="profile_name">Eliano David</h2>
           </div>
         </div>
         <div class="bottom_menu">
-          <div class="bottom_left">
-            <div class="login_icon">
-              <img
-                src="Icons/20a32f9b-1a4e-4ab0-bbe0-fe090cffe514.svg"
-                alt="logged on profile icon. Icon by Dryicons"
-              />
+          <div class="user_greetings">
+            <img
+              src="Icons/20a32f9b-1a4e-4ab0-bbe0-fe090cffe514.svg"
+              alt="logged on profile icon. Icon by Dryicons"
+              class="big-pfp"
+            />
+            <div class="greetings-block">
+              <h3 class="tiny_greeting">Hi there,</h3>
+              <h1>Eliano David (@eliboss)</h1>
             </div>
-            <div class="loging_text">
-              <h3>Hi there,</h3>
-              <h1>Eliano David</h1>
-            </div>
-            <div class="bottom_right">
-              <button>New</button><button>Upload</button><button>Share</button>
-            </div>
+          </div>
+          <div class="fun_btns">
+            <button class="btn">New</button>
+            <button class="btn">Upload</button>
+            <button class="btn">Share</button>
           </div>
         </div>
       </div>
       <div class="main">
-        <div class="cards">
-          <div class="card">
-            <h4>Super Cool Project</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div class="card">
-            <h4>Another Cool Project</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div class="card">
-            <h4>Easy Cool Project</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div class="card">
-            <h4>Ad Blocker Project</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div class="card">
-            <h4>Impossible Project</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div class="card">
-            <h4>Money Maker Project</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+        <div class="project_column">
+          <h2 class="column_title">your Projects</h2>
+          <div class="cards">
+            <div class="card">
+              <h3 class="project-name">Super Cool Project</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="icons-block">
+                <img
+                  src="Icons/star-plus-outline.svg"
+                  alt="star icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/eye-plus-outline.svg"
+                  alt="eye icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/source-fork.svg"
+                  alt="fork icon"
+                  class="card-icon"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="project-name">Another Cool Project</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="icons-block">
+                <img
+                  src="Icons/star-plus-outline.svg"
+                  alt="star icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/eye-plus-outline.svg"
+                  alt="eye icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/source-fork.svg"
+                  alt="fork icon"
+                  class="card-icon"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="project-name">Impossible Project</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="icons-block">
+                <img
+                  src="Icons/star-plus-outline.svg"
+                  alt="star icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/eye-plus-outline.svg"
+                  alt="eye icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/source-fork.svg"
+                  alt="fork icon"
+                  class="card-icon"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="project-name">Easy Peasy Project</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="icons-block">
+                <img
+                  src="Icons/star-plus-outline.svg"
+                  alt="star icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/eye-plus-outline.svg"
+                  alt="eye icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/source-fork.svg"
+                  alt="fork icon"
+                  class="card-icon"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="project-name">Ad Blocker</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="icons-block">
+                <img
+                  src="Icons/star-plus-outline.svg"
+                  alt="star icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/eye-plus-outline.svg"
+                  alt="eye icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/source-fork.svg"
+                  alt="fork icon"
+                  class="card-icon"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="project-name">Money Maker</h3>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="icons-block">
+                <img
+                  src="Icons/star-plus-outline.svg"
+                  alt="star icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/eye-plus-outline.svg"
+                  alt="eye icon"
+                  class="card-icon"
+                />
+                <img
+                  src="Icons/source-fork.svg"
+                  alt="fork icon"
+                  class="card-icon"
+                />
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="tertiary">
-          <ul class="announcements">
-            Announcements
-            <li>
+          <h2 class="announcement_header">Announcements</h2>
+          <div class="announcements">
+            <div class="announcement_spot">
               <div class="site">
-                <p>Site Maintenance</p>
+                <p><strong>Site Maintenance</strong></p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
               </div>
-            </li>
-            <li>
+            </div>
+            <div class="announcement_spot">
               <div class="community"></div>
               <p><strong>Community Share Day</strong></p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod
               </p>
-            </li>
-            <li>
+            </div>
+            <div class="announcement_spot">
               <div class="privacy"></div>
-              <p>Updated Privacy Policy</p>
+              <p><strong>Updated Privacy Policy</strong></p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod
               </p>
-            </li>
-          </ul>
+            </div>
+          </div>
 
           <div class="trending">
-            Trending
-            <div class="users">
-              <img
-                src="Icons/0e5341d6-8761-495d-a4f6-09f5837c9317.svg"
-                alt="monkey icon"
-              />
+            <div class="trending_header">
+              <h2>Trending</h2>
             </div>
-            <div class="users">
-              <img
-                src="Icons/487b446b-d477-48da-9a32-976fdd8d55ca.svg"
-                alt=""
-              />
-            </div>
-            <div class="users">
-              <img
-                src="Icons/82a942d7-419f-44c1-8feb-86bfea7b2418.svg"
-                alt="tiger icon"
-              />
-            </div>
-            <div class="users">
-              <img
-                src="Icons/e8b68857-422c-4a0a-9a68-4e6d7ba59281.svg"
-                alt="elephant icon"
-              />
+            <div class="trending_block">
+              <div class="user-block">
+                <img
+                  src="Icons/0e5341d6-8761-495d-a4f6-09f5837c9317.svg"
+                  alt="monkey icon"
+                  class="smol-pfp"
+                />
+                <div class="userdesc">
+                  <p class="handle">@user1</p>
+                  <p class="userapp">World Builder</p>
+                </div>
+              </div>
+              <div class="user-block">
+                <img
+                  src="Icons/82a942d7-419f-44c1-8feb-86bfea7b2418.svg"
+                  alt="monkey icon"
+                  class="smol-pfp"
+                />
+
+                <div class="userdesc">
+                  <p class="handle">@user2</p>
+                  <p class="userapp">Indomitable</p>
+                </div>
+              </div>
+              <div class="user-block">
+                <img
+                  src="Icons/487b446b-d477-48da-9a32-976fdd8d55ca.svg"
+                  alt="monkey icon"
+                  class="smol-pfp"
+                />
+
+                <div class="userdesc">
+                  <p class="handle">@user3</p>
+                  <p class="userapp">Grad Grad</p>
+                </div>
+              </div>
+              <div class="user-block">
+                <img
+                  src="Icons/20a32f9b-1a4e-4ab0-bbe0-fe090cffe514.svg"
+                  alt="monkey icon"
+                  class="smol-pfp"
+                />
+                <div class="userdesc">
+                  <p class="handle">@user4</p>
+                  <p class="userapp">Universal Int</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
